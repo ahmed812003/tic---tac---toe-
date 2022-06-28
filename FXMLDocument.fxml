@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="405.0" prefWidth="591.0" style="-fx-background-color: gray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="xo.FXMLDocumentController">
+   <children>
+      <Button fx:id="button1" layoutX="132.0" layoutY="125.0" mnemonicParsing="false" onAction="#set1" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="195.0" layoutY="125.0" mnemonicParsing="false" onAction="#set2" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="258.0" layoutY="125.0" mnemonicParsing="false" onAction="#set3" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="132.0" layoutY="178.0" mnemonicParsing="false" onAction="#set4" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="195.0" layoutY="178.0" mnemonicParsing="false" onAction="#set5" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="258.0" layoutY="178.0" mnemonicParsing="false" onAction="#set6" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="132.0" layoutY="231.0" mnemonicParsing="false" onAction="#set7" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="195.0" layoutY="231.0" mnemonicParsing="false" onAction="#set8" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="258.0" layoutY="231.0" mnemonicParsing="false" onAction="#set9" prefHeight="53.0" prefWidth="63.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" layoutX="61.0" layoutY="14.0" prefHeight="104.0" prefWidth="319.0" text="tic - tac - toc">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="load" layoutX="174.0" layoutY="322.0" mnemonicParsing="false" onAction="#res" prefHeight="53.0" prefWidth="105.0" text="restart">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="402.0" layoutY="38.0" prefHeight="45.0" prefWidth="115.0" text="score">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="357.0" layoutY="122.0" prefHeight="53.0" prefWidth="96.0" text="player x">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="196.0" prefHeight="45.0" prefWidth="96.0" text="player o">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelx" alignment="CENTER" layoutX="493.0" layoutY="125.0" prefHeight="53.0" prefWidth="48.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelo" alignment="CENTER" layoutX="493.0" layoutY="196.0" prefHeight="45.0" prefWidth="48.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="sss" layoutX="388.0" layoutY="322.0" mnemonicParsing="false" onAction="#newScore" prefHeight="53.0" prefWidth="126.0" text="new game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
